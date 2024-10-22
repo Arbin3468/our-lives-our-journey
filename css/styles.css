@@ -1,10 +1,10 @@
 /* Global Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'LEMONMILK-Medium.otf', sans-serif;
     margin: 0;
     padding: 0;
     /* background-color: #2e4d3b; */
-    color: #ffffff;
+    color: #9ac6cc;
 }
 
 a {
@@ -133,7 +133,7 @@ header {
 .hero-images {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
 }
 
 .hero-images img.rounded-image {
@@ -148,7 +148,7 @@ header {
     padding: 3rem 4rem;
     background-color: #00796bed;
     text-align: center;
-    height: 300px;
+    height: 380px;
 }
 
 .about h2 {
@@ -163,13 +163,12 @@ header {
 }
 
 .about-description {
-    font-size: 1rem;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 0 auto;
-    color: #c5d6c5;
+    background-color: #4c8f687d; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
 }
-
 /* Footer */
 footer {
     background-color: #00695ceb;
@@ -188,11 +187,11 @@ footer p {
 .footer-links ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .footer-links a {
-    color: #ffffff;
+    color: #0c1436;
 }
 
 
